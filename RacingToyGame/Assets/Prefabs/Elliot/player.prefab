@@ -1862,7 +1862,7 @@ Transform:
   - {fileID: 7584332049827354861}
   - {fileID: 7584332049682048102}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &7253724150848860978
 Rigidbody:
@@ -1891,8 +1891,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.085991, y: 2.9900303, z: 9.883034}
-  m_Center: {x: 0, y: 1.7881429, z: -0.014419556}
+  m_Size: {x: 4.085991, y: 1.3292613, z: 7.3431787}
+  m_Center: {x: 0, y: 2.194502, z: 0.22404432}
 --- !u!114 &7253724150848860976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1911,7 +1911,7 @@ MonoBehaviour:
   radius: 6
   DownForceValue: 350
   motorTorque: 500
-  steeringMax: 50
+  steeringMax: 15
   thrust: 2000
   rigidbody: {fileID: 0}
   slip:
