@@ -25,7 +25,7 @@ public class DestroyOnCollision : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
-            StartCoroutine("WaitforGameOver");
+            StartCoroutine(WaitforRespawn(collision.collider.gameObject));
             foreach(var evento in eventos)
             {
                 evento.Invoke();
@@ -35,11 +35,24 @@ public class DestroyOnCollision : MonoBehaviour
     }
     private IEnumerator WaitforGameOver()
     {
+        timer = 0f;
         while (timer < duration)
         {
             timer += Time.deltaTime;
             yield return null;
         }
         GameOver();
+    }
+
+    private IEnumerator WaitforRespawn(GameObject player)
+    {
+        timer = 0f;
+        while (timer < duration)
+        {
+            timer += Time.deltaTime;
+            yield return null;
+        }
+        player.SetActive(true);
+        player.GetComponent<Controller>().Respawn();
     }
 }

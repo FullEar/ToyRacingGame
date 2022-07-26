@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/CarSelection.unity
-    guid: 74920f04bb8210043bc4e88171094726
-  - enabled: 1
     path: Assets/Scenes/LevelSelection.unity
     guid: 0e464d68cef33a94b8972aadaabeb4c0
+  - enabled: 1
+    path: Assets/Scenes/CarSelection.unity
+    guid: 74920f04bb8210043bc4e88171094726
   - enabled: 1
     path: Assets/Scenes/FirstLevel.unity
     guid: fc8e624c259ae3a4586abe9602af6101
