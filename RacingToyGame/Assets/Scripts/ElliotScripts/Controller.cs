@@ -28,7 +28,8 @@ public class Controller : MonoBehaviour
     private WheelCollider[] wheels = new WheelCollider[4];
     private GameObject[] wheelMesh = new GameObject[4];
     private GameObject centerOfMass;
-    public Rigidbody rigidbody;
+    public Rigidbody rb;
+    public Transform respawnPoint;
 
     [Header("DEBUG")]
     public float[] slip = new float[4];
@@ -73,7 +74,7 @@ public class Controller : MonoBehaviour
             }
         }
 
-        KPH = rigidbody.velocity.magnitude * 3.6f;
+        KPH = rb.velocity.magnitude * 3.6f;
 
 
         if (IM.handbrake)
@@ -87,7 +88,7 @@ public class Controller : MonoBehaviour
 
         if (IM.boosting)
         {
-            rigidbody.AddForce(Vector3.forward * thrust);
+            rb.AddForce(Vector3.forward * thrust);
         }
     }
 
@@ -126,7 +127,7 @@ public class Controller : MonoBehaviour
     private void getObjects()
     {
         IM = GetComponent<InputManager>();
-        rigidbody = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>();
         wheelColliders = GameObject.Find("wheelColliders");
         wheelMeshes = GameObject.Find("wheelMeshes");
         wheels[0] = wheelColliders.transform.Find("0").gameObject.GetComponent<WheelCollider>();
@@ -141,12 +142,12 @@ public class Controller : MonoBehaviour
         wheelMesh[3] = wheelMeshes.transform.Find("3").gameObject;
 
         centerOfMass = GameObject.Find("mass");
-        rigidbody.centerOfMass = centerOfMass.transform.localPosition;
+        rb.centerOfMass = centerOfMass.transform.localPosition;
     }
 
     private void addDownForce()
     {
-        rigidbody.AddForce(-transform.up * DownForceValue * rigidbody.velocity.magnitude);
+        rb.AddForce(-transform.up * DownForceValue * rb.velocity.magnitude);
     }
 
     private void getFriction()
@@ -184,6 +185,11 @@ public class Controller : MonoBehaviour
 
         motorTorque -= boost;
         
+    }
+
+    public void Respawn() 
+    {
+        transform.position = respawnPoint.position;
     }
 }
 
