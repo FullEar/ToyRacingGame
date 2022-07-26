@@ -1131,8 +1131,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.085991, y: 2.9900303, z: 9.883034}
-  m_Center: {x: 0, y: 1.7881429, z: -0.014419556}
+  m_Size: {x: 4.085991, y: 2.4816568, z: 9.452869}
+  m_Center: {x: 0, y: 1.8598367, z: -0.22950172}
 --- !u!54 &1002774938694831261
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1185,6 +1185,9 @@ MonoBehaviour:
   motorTorque: 500
   steeringMax: 50
   thrust: 2000
+  boostSpeed: 150
+  speedDown: -50
+  duration: 1
   rigidbody: {fileID: 0}
   slip:
   - 0
