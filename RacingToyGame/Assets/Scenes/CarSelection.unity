@@ -1572,6 +1572,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: VehicleList
       objectReference: {fileID: 0}
+    - target: {fileID: 9047728010317984349, guid: 3834b2725ae3ae1449260426d6d92d0e, type: 3}
+      propertyPath: vehicles.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9047728010317984349, guid: 3834b2725ae3ae1449260426d6d92d0e, type: 3}
+      propertyPath: vehicles.Array.data[3]
+      value: 
+      objectReference: {fileID: 642287924342879162, guid: 79d0ca8b77e301442afdb49f102e8aed, type: 3}
     - target: {fileID: 9047728010317984350, guid: 3834b2725ae3ae1449260426d6d92d0e, type: 3}
       propertyPath: m_RootOrder
       value: 7
