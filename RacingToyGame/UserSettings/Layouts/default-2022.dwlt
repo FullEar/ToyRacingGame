@@ -92,7 +92,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 192
+    width: 428
     height: 679
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -265,9 +265,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 192
+    x: 428
     y: 0
-    width: 1274
+    width: 1038
     height: 679
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -414,22 +414,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Elliot
+    - Assets/Scripts/ElliotScripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Elliot
+  - Assets/Scripts/ElliotScripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\artzc\Desktop\VFS\ToyRacingGame\RacingToyGame
+  m_LastProjectPath: C:\Users\artzc\Documents\GitHub\ToyRacingGame\RacingToyGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 141}
-    m_SelectedIDs: 628a0000
-    m_LastClickedID: 35426
-    m_ExpandedIDs: 000000006c590000925900009a5900009c5900009e590000a4590000365a000000ca9a3b
+    scrollPos: {x: 0, y: 240}
+    m_SelectedIDs: 020a1200
+    m_LastClickedID: 1182210
+    m_ExpandedIDs: 000000005e910000769100007c91000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -576,7 +576,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 191
+    width: 427
     height: 658
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -584,10 +584,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 2212ffff669effff20a1ffff24a6ffffe6f0ffff0efaffff34fbffff
+      scrollPos: {x: 0, y: 900}
+      m_SelectedIDs: 7a54f6ff
+      m_LastClickedID: -633734
+      m_ExpandedIDs: d253f6fff653f6ff6e54f6ff7a54f6fff060f6ff849cf6ffb29df6ffa6abf6ffd818fcff4c4afcffd460fcfff0c7ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -631,9 +631,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 192
+    x: 428
     y: 73
-    width: 1272
+    width: 1036
     height: 658
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -869,9 +869,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 4.5706096, y: 2.0703082, z: 33.135033}
+    m_Target: {x: 5.9335966, y: 0.7627946, z: 0.61481225}
     speed: 2
-    m_Value: {x: 4.5706096, y: 2.0703082, z: 33.135033}
+    m_Value: {x: 5.9335966, y: 0.7627946, z: 0.61481225}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -917,13 +917,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.18544245, y: -0.58388734, z: 0.13919996, w: -0.77803135}
+    m_Target: {x: -0.29308984, y: -0.3221824, z: 0.1056232, w: -0.89396524}
     speed: 2
-    m_Value: {x: -0.18523134, y: -0.5850471, z: 0.13947639, w: -0.7771458}
+    m_Value: {x: -0.29308498, y: -0.32217705, z: 0.10562145, w: -0.8939504}
   m_Size:
-    m_Target: 4.386305
+    m_Target: 31.820948
     speed: 2
-    m_Value: 4.197421
+    m_Value: 31.480728
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -968,9 +968,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 192
+    x: 428
     y: 73
-    width: 1272
+    width: 1036
     height: 658
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -982,7 +982,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1272, y: 637}
+  m_TargetSize: {x: 1036, y: 637}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1002,8 +1002,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -636
-    m_HBaseRangeMax: 636
+    m_HBaseRangeMin: -518
+    m_HBaseRangeMax: 518
     m_VBaseRangeMin: -318.5
     m_VBaseRangeMax: 318.5
     m_HAllowExceedBaseRangeMin: 1
@@ -1023,23 +1023,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1272
+      width: 1036
       height: 637
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 636, y: 318.5}
+    m_Translation: {x: 518, y: 318.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -636
+      x: -518
       y: -318.5
-      width: 1272
+      width: 1036
       height: 637
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1272, y: 658}
+  m_LastWindowPixelSize: {x: 1036, y: 658}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
