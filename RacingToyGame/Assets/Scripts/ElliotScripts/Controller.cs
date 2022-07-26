@@ -19,6 +19,10 @@ public class Controller : MonoBehaviour
     public int motorTorque = 100;
     public float steeringMax = 25;
     public float thrust = 1000f;
+    public int boostSpeed = 150;
+    public int speedDown = -50;
+    public float duration = 1f;
+    private float timer = 0f;
     private InputManager IM;
     private GameObject wheelMeshes, wheelColliders;
     private WheelCollider[] wheels = new WheelCollider[4];
@@ -156,6 +160,31 @@ public class Controller : MonoBehaviour
         }
     }
 
+    public void SpeedChange(bool isBoost)
+    {
+        if (isBoost)
+        {
+            StartCoroutine(BuffTimer(boostSpeed));
+        }
+        else
+        {
+            StartCoroutine(BuffTimer(speedDown));
+        }
+    }
+
+    private IEnumerator BuffTimer(int boost)
+    {
+        motorTorque += boost;
+        timer = 0;
+        while (timer < duration)
+        {
+            timer += Time.deltaTime;
+            yield return null;
+        }
+
+        motorTorque -= boost;
+        
+    }
 }
 
 
