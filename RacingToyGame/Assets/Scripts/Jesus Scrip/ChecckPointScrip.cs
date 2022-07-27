@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ChecckPointScrip : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class ChecckPointScrip : MonoBehaviour
     private MeshRenderer meshRenderer;
 
     [SerializeField] private string tagName = "Player";
+    [SerializeField] private UnityEvent coleccionado;
 
     private void Awake()
     {
@@ -19,6 +21,7 @@ public class ChecckPointScrip : MonoBehaviour
     {
         Debug.Log("Checklpoint!");
             tracklChechPoint.PlayerThroughCheckpoint(this);
+            coleccionado.Invoke();
     }
   }
   public void SetTrackCheckpoints(TracklChechPoint tracklChechPoint)
