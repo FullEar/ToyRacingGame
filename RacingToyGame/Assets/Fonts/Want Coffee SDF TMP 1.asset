@@ -165,11 +165,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
-  m_Name: Want Coffee SDF TMP
+  m_Name: Want Coffee SDF TMP 1
   m_EditorClassIdentifier: 
-  hashCode: -79037640
+  hashCode: -172645079
   material: {fileID: -3782251389916926444}
-  materialHashCode: 1955014168
+  materialHashCode: 1480534889
   m_Version: 1.1.0
   m_SourceFontFileGUID: 60d98c99451f25d4ea5b499aeb8c3a8b
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 60d98c99451f25d4ea5b499aeb8c3a8b, type: 3}

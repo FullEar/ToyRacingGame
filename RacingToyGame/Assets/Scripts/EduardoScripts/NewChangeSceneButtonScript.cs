@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NewChangeSceneButtonScript : MonoBehaviour
 {
@@ -8,6 +9,6 @@ public class NewChangeSceneButtonScript : MonoBehaviour
 
     public void SceneSelection()
     {
-
+        SceneManager.LoadScene("scene");
     }
 }
