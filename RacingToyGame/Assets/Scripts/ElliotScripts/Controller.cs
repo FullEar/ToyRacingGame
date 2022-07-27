@@ -80,6 +80,7 @@ public class Controller : MonoBehaviour
         if (IM.handbrake)
         {
             wheels[3].brakeTorque = wheels[2].brakeTorque = breakPower;
+            KPH = 0;
         }
         else
         {

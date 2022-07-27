@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraController : MonoBehaviour
+public class CameraController2 : MonoBehaviour
 {
     public GameObject Player;
     private Controller RR;
-    private GameObject cameraConstraint;
-    private GameObject cameraLookAt;
+    public GameObject cameraConstraint;
+    public GameObject cameraLookAt;
     public GameObject Child;
     public float speed = 0;
     public float defaltFOV = 0, desireFOV = 0;
@@ -18,8 +18,6 @@ public class CameraController : MonoBehaviour
     private void Awake()
     {
         Player = GameObject.FindGameObjectWithTag("Player");
-        cameraConstraint = Player.transform.Find("Camera Constrain").gameObject;
-        cameraLookAt = Player.transform.Find("Camera Look At").gameObject;
         RR = Player.GetComponent<Controller>();
         defaltFOV = gameCam.fieldOfView;
     }
