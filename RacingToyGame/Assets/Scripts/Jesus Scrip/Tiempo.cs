@@ -11,7 +11,9 @@ public class Tiempo : MonoBehaviour
     public GameObject timesUpText;
 
     void Start()
-    { timesUpText.SetActive(false);
+    { 
+        Time.timeScale = 1;
+        timesUpText.SetActive(false);
         timeBar = GetComponent<Image>();
         timeLeft = maxTime;
 

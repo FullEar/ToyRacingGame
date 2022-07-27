@@ -1312,7 +1312,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534762810}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 205.70978, y: 5.495762, z: 101.16146}
+  m_LocalPosition: {x: 205.70978, y: 5.495762, z: 101.116}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1379,13 +1379,13 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
     m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
+    m_NormalBias: 3
+    m_NearPlane: 0.1
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
@@ -1549,15 +1549,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1609493270715493853, guid: 2165e6d654974bc4798a5871255b17c1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -84.992
       objectReference: {fileID: 0}
     - target: {fileID: 1609493270715493853, guid: 2165e6d654974bc4798a5871255b17c1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -12.21
       objectReference: {fileID: 0}
     - target: {fileID: 1609493270715493853, guid: 2165e6d654974bc4798a5871255b17c1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 11.37
       objectReference: {fileID: 0}
     - target: {fileID: 1609493270715493853, guid: 2165e6d654974bc4798a5871255b17c1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3810,7 +3810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055a20ea16607d649b5b7659c85e9162, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxTime: 5
+  maxTime: 1
   timesUpText: {fileID: 989765556}
 --- !u!114 &1479432446
 MonoBehaviour:
