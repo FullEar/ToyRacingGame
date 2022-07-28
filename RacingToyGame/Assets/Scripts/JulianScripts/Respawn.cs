@@ -7,6 +7,7 @@ public class Respawn : MonoBehaviour
 
     [SerializeField] private Transform[] respawnPoint;
     [SerializeField] private bool canPlayerTeleport = false;
+    [SerializeField] private bool canEnemyTeleport = false;
     
 
     private void OnTriggerEnter(Collider other)
@@ -15,7 +16,7 @@ public class Respawn : MonoBehaviour
         {
             other.transform.position = respawnPoint[0].transform.position;
         }
-        if (other.CompareTag("Enemy"))
+        if (other.CompareTag("Enemy") && canEnemyTeleport) 
         {
             int number = other.GetComponent<EnemyFollow>().enemyNumber;
             other.transform.position = respawnPoint[number].transform.position;
