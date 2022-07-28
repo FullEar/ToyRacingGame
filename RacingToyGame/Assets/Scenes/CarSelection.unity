@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.29652643, g: 0.3715635, b: 0.46590507, a: 1}
+  m_IndirectSpecularColor: {r: 0.5407071, g: 0.40335342, b: 0.43179518, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -12398,7 +12398,7 @@ PrefabInstance:
     - target: {fileID: 9047728010317984349, guid: 3834b2725ae3ae1449260426d6d92d0e, type: 3}
       propertyPath: vehicles.Array.data[0]
       value: 
-      objectReference: {fileID: 2015025602300035615, guid: e8ffff95fff85484382a2be671cf1b9b, type: 3}
+      objectReference: {fileID: 2974473252989799308, guid: e8ffff95fff85484382a2be671cf1b9b, type: 3}
     - target: {fileID: 9047728010317984349, guid: 3834b2725ae3ae1449260426d6d92d0e, type: 3}
       propertyPath: vehicles.Array.data[3]
       value: 

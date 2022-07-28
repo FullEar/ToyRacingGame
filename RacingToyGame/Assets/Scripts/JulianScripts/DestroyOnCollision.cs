@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using KartGame.KartSystems;
 
 public class DestroyOnCollision : MonoBehaviour
 {
@@ -53,6 +54,7 @@ public class DestroyOnCollision : MonoBehaviour
             yield return null;
         }
         player.SetActive(true);
-        player.GetComponent<Controller>().Respawn();
+
+        player.GetComponent<ArcadeKart>().Respawn();
     }
 }
