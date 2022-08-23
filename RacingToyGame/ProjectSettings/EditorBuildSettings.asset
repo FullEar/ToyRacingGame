@@ -5,25 +5,28 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LevelSelection.unity
     guid: 0e464d68cef33a94b8972aadaabeb4c0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CarSelection.unity
     guid: 74920f04bb8210043bc4e88171094726
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FirstLevel.unity
     guid: fc8e624c259ae3a4586abe9602af6101
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/EndScene.unity
     guid: 92fde76d0e54a334e815ee90614dbecb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/JulianScene.unity
     guid: 373cf304d13c1b745a64e6e67152d2f6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/WinScene.unity
     guid: c60b54f4a47ffa744a0039347fc17701
+  - enabled: 1
+    path: Assets/Scenes/JulianScene 2.unity
+    guid: ce6763c5ad5e5f8488be83dd6a8b6840
   m_configObjects: {}
